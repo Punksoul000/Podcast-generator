@@ -1,0 +1,19 @@
+name: "Podcast Generator"
+author : "Sachin Singh"
+description: "Generates a feed for a podcast from YAML file"
+runs:
+  using: "docker"
+  image: "Dockerfile"
+branding:
+  icon: "git-branch"
+  color: 'red"
+inputs:
+  email:
+   description: The Committer's email address
+   required: true
+   default: ${{ GitHub.ctor }}@localhost
+name: 
+   description: The committer's name
+   required: true
+   default: ${{ Github.actor }}
+         
