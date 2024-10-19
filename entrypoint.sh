@@ -13,4 +13,4 @@ git push --set-upstream origin main
 
 
 
-echo"============="
+echo"============="git pull --rebase origin main
